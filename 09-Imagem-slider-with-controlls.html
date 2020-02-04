@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>09 - Imagem Slider Com Controle</title>
+
+    <link rel="stylesheet" href="css/09-imagem-slider-with-control.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <input type="radio" name="imagens" id="rd1" checked>
+        <input type="radio" name="imagens" id="rd2">
+        <input type="radio" name="imagens" id="rd3">
+
+        <div class="slide_img" id="img1">
+            <img src="img/04-filtrando-itens-galeria/01.jpg">
+
+            <label for="rd3" class="pre"></label>
+            <label for="rd2" class="nxt"></label>
+        </div>
+
+        <div class="slide_img" id="img2">
+            <img src="img/04-filtrando-itens-galeria/07.jpg">
+
+            <label for="rd1" class="pre"></label>
+            <label for="rd3" class="nxt"></label>
+        </div>
+
+        <div class="slide_img" id="img3">
+            <img src="img/04-filtrando-itens-galeria/08.jpg">
+
+            <label for="rd2" class="pre"></label>
+            <label for="rd1" class="nxt"></label>
+        </div>
+
+        <div class="nav">
+            <label for="rd1" class="dots" id="dot1"></label>
+            <label for="rd2" class="dots" id="dot2"></label>
+            <label for="rd3" class="dots" id="dot3"></label>
+        </div>
+      
+    </div>
+    
+</body>
+</html>

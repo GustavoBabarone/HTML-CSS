@@ -1,0 +1,102 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    height: 0;
+    padding-bottom: 40%;
+    background: #4c4c4c;
+    border: solid 10px #2c2c2c;
+}
+
+.slide_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slide_img img{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#rd1, #rd2, #rd3{
+    display: none;
+}
+
+.pre, .nxt{
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(88,88,88,.4);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.pre{
+    left: 0;
+}
+
+.nxt{
+    right: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.nav label{
+    cursor: pointer;
+}
+
+.dots{
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,.4);
+}
+
+.slide_img{
+    z-index: -1;
+}
+
+#rd1:checked ~ #img1,
+#rd2:checked ~ #img2,
+#rd3:checked ~ #img3{
+    z-index: 9;
+    animation: scroll 1s ease-in-out;
+}
+
+#rd1:checked ~ .nav #dot1,
+#rd2:checked ~ .nav #dot2,
+#rd3:checked ~ .nav #dot3{
+    background: #fff;
+}
+
+.pre:hover,
+.nxt:hover{
+    background: rgba(0,0,0,.4);
+    transition: all linear 1s;
+}
+
+@keyframes scroll{
+    0% {opacity: 0.4;}
+    100% {opacity: 1;}
+}

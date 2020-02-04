@@ -1,0 +1,46 @@
+/*
+        
+        position: fixed; -> fixa em um lugar da tela
+        position: relative; -> à própria entidade
+        position: absolute; -> absoluta / em relação ao 'body' da página
+        z-index: (numero) -> deixa obj na frente ou atrás OBS: maior numero = na frente
+        
+        */
+    
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .div{
+            width: 100px;
+            height: 100px;
+        }
+
+        /* AZUL SEMPRE NO CANTO INFERIOR DIREITO */
+        #blue{
+            background-color: blue;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+            margin: 50px;
+        }
+
+        #green{
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+
+        #red{
+            background-color: red;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        #black{
+            background-color: black;
+            height: 1200px;
+        }

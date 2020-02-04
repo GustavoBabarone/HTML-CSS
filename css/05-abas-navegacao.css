@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #ddd;
+    font-family: 'Arial';
+}
+
+.nav_tabs{
+    width: 600px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    position: relative;
+}
+
+.nav_tabs ul{
+    list-style: none;
+}
+
+.nav_tabs ul li{
+    float: left;
+}
+
+.nav_tabs label{
+    width: 100px;
+    padding: 25px;
+    background-color: #363b45;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rd_tabs:checked ~ label{
+    background-color: #e54e43;
+}
+
+.rd_tabs{
+    display: none;
+}
+
+.content{
+    border-top: 5px solid #e54e43;
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    height: 320px;
+    width: 600px;
+    left: 0;
+}
+
+.content article{
+    padding: 10px;
+    text-align: justify;
+}
+
+.rd_tabs:checked ~ .content{
+    display: block;
+}
