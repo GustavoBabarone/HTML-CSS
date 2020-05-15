@@ -1,4 +1,3 @@
-/* CSS - PARTE DE DISPOSIÇÃO DAS IMG E VISUALIZAÇÃO */
 *{
     margin: 0px;
     padding: 0px;
@@ -37,7 +36,6 @@ input{
     display: none;
 }
 
-/* CSS - PARTE FUNCIONAL DAS IMG */
 #bt_tecnologia:checked ~ #galeria .animais,
 #bt_tecnologia:checked ~ #galeria .musica{
     opacity: .4;

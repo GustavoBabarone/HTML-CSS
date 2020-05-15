@@ -1,0 +1,14 @@
+﻿
+/*****/*****/*****/*****/ AULAS NO YOUTUBE - SITES /*****/*****/*****/*****/
+
+01- (MENU SANFONA)                https://www.youtube.com/watch?v=cnCIigjaGkE
+02- (MENU LATERAL RETRATIL)       https://www.youtube.com/watch?v=LEN_iNk3FpU
+03- (MENU DROPDOWN RESPONSIVO)    https://www.youtube.com/watch?v=RzctM_ZXWAo
+04- (FILTRANDO ITENS GALERIA)     https://www.youtube.com/watch?v=ek9tPyDQWXw
+05- (ABAS NAVEGAÇÃO)              https://www.youtube.com/watch?v=SKfeIP3q9oI
+06- (MENU REDES SOCIAIS ANIMADO)  https://www.youtube.com/watch?v=AM4mObGTzNs
+07- (NAVEGAÇÃO FULL-PAGE EFFECT)  https://www.youtube.com/watch?v=QiI6PbD6Ei4
+08- (POSITION - PROPRIEDADES)     https://www.youtube.com/watch?v=7svFaPgLCnc
+09- (IMAGEM SLIDER WITH CONTROL)  https://www.youtube.com/watch?v=z74ExMz-cWU
+10- (BUTTON WITH HOVER EFFECT)    https://www.youtube.com/watch?v=SP0wAmjbaQ4
+11- (ANIMATED SKILLS BAR)         https://www.youtube.com/watch?v=bvUMzFMiIbk

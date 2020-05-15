@@ -1,4 +1,3 @@
-/* ESTRUTURA */
 .input-container {
     position: relative;
 }
@@ -7,7 +6,7 @@ input {
     border: 0;
     border-bottom: 2px solid #9e9e9e;
     outline: none;
-    transition: .2s ease-in-out;
+    transition: 1s ease-in-out;
     box-sizing: border-box;
 }
 
@@ -31,7 +30,6 @@ label {
     font-size: 1rem;
 }
 
-/* INTERAÇÃO - FUNCIONALIDADE */
 input:valid,
 input:focus {
     border-bottom: 2px solid #26a69a;  
@@ -45,7 +43,6 @@ input:focus + label {
     pointer-events: none;
 }
 
-/* APENAS PARA DEIXAR MAIS BONITO */
 * {
     font-family: sans-serif;
 }
