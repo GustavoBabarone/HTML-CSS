@@ -12,3 +12,8 @@
 09- (IMAGEM SLIDER WITH CONTROL)  https://www.youtube.com/watch?v=z74ExMz-cWU
 10- (BUTTON WITH HOVER EFFECT)    https://www.youtube.com/watch?v=SP0wAmjbaQ4
 11- (ANIMATED SKILLS BAR)         https://www.youtube.com/watch?v=bvUMzFMiIbk
+12- (INPUT LABEL TRANSITION)      https://www.youtube.com/watch?v=IxRJ8vplzAo
+13- (NEON LIGHT BUTTON)           https://www.youtube.com/watch?v=ex7jGbyFgpA
+14- (VIDEO INSIDE TEXT)           https://www.youtube.com/watch?v=S1LyYnyqRRs
+15- (WATER WAVE TEXT)             https://www.youtube.com/watch?v=Tf6qm5JMUXQ
+16- (GLOWING LOADER RIND)         https://www.youtube.com/watch?v=qB_EEdcj6-U
